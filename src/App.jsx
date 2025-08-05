@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/incident-response">
       <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <Routes>

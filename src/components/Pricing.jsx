@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronDown, Shield, Users, BookOpen, MessageCircle } from "lucide-react";
+import irImage from "../assets/ir.png";
 
 const Pricing = () => {
   const [showRolesDropdown, setShowRolesDropdown] = useState(false);
@@ -18,8 +19,12 @@ const Pricing = () => {
               <div className="flex-shrink-0">
                 <div className="relative">
                   <div className="absolute inset-0 bg-orange-500/30 rounded-full blur-2xl animate-pulse"></div>
-                  <div className="relative bg-gradient-to-br from-orange-400 to-orange-600 p-8 rounded-full shadow-2xl">
-                    <Shield className="w-20 h-20 text-white drop-shadow-2xl" />
+                  <div className="relative bg-gradient-to-br from-orange-400 to-orange-600 p-4 rounded-full shadow-2xl">
+                    <img 
+                      src={irImage} 
+                      alt="Incident Response" 
+                      className="w-20 h-20 object-contain drop-shadow-2xl"
+                    />
                   </div>
                 </div>
               </div>
@@ -186,7 +191,7 @@ const Pricing = () => {
                   <ul className="mt-6 p-6 border border-neutral-600 rounded-lg bg-neutral-800/60 backdrop-blur-sm shadow-xl">
                     <li className="py-3 border-b border-neutral-700 last:border-b-0">
                       <a
-                        href="https://ddos-webpage-5vz4prv1j-kp0702s-projects.vercel.app"
+                        href="https://ddos-fvjzd9kf3-kp0702s-projects.vercel.app"
                         className="text-orange-500 hover:text-orange-400 hover:underline transition-colors duration-200 font-semibold text-lg"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -197,7 +202,7 @@ const Pricing = () => {
                     </li>
                     <li className="py-3 border-b border-neutral-700 last:border-b-0">
                       <a
-                        href="https://ransomware-webpage-3eppuxoxv-kp0702s-projects.vercel.app"
+                        href="https://ransomware-webpage-2-p8jt1gr08-kp0702s-projects.vercel.app"
                         className="text-orange-500 hover:text-orange-400 hover:underline transition-colors duration-200 font-semibold text-lg"
                         target="_blank"
                         rel="noopener noreferrer"
